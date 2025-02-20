@@ -14,3 +14,4 @@
 |15|[3Sum](https://leetcode.com/problems/3sum/)|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|
 |2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|
