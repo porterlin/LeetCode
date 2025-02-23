@@ -6,6 +6,8 @@
 ### Sliding Window
 * right - left + 1 的精髓
 * 兩指針相互移動的過程其實就是在滿足條件跟不滿足條件來回
+### Binary Search
+* 循環不變量
 
 ## Need to review again
 | # | Title |
@@ -15,3 +17,4 @@
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|
 |2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|
+|2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|
