@@ -18,3 +18,4 @@
 |2962|[Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|
+|275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|
