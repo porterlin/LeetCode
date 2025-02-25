@@ -8,6 +8,8 @@
 * 兩指針相互移動的過程其實就是在滿足條件跟不滿足條件來回
 ### Binary Search
 * 循環不變量
+* 區間內的是還沒確定的，區間外才是確定的
+* 不一定對陣列做二分，原則上題目問什麼就對誰做
 
 ## Need to review again
 | # | Title |
@@ -19,3 +21,5 @@
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|
 |2563|[Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|
+|875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|
+|2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|
