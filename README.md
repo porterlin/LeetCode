@@ -26,3 +26,8 @@
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|
+
+## Too Hard
+| # | Title |
+|---| ----- |
+|2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|
