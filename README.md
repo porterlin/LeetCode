@@ -15,6 +15,8 @@
 ### Linked List
 * 反轉結束時，pre 指向反轉這段的最後節點，cur 指向反轉這段最後節點的下一個節點
 * 特殊情況時需要添加 dummyNode (比如只反轉前三個節點)
+* 快慢指針
+    * 找入環口![碰面一定在入門口證明圖](images\proof_slow_fast_pointer.png)
 
 ## Need to review again
 | # | Title |
@@ -29,6 +31,8 @@
 |875|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|
+|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|
 
 ## Too Hard
 | # | Title |
