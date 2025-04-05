@@ -16,7 +16,7 @@
 * 反轉結束時，pre 指向反轉這段的最後節點，cur 指向反轉這段最後節點的下一個節點
 * 特殊情況時需要添加 dummyNode (比如只反轉前三個節點)
 * 快慢指針
-    * 找入環口![碰面一定在入門口證明圖](.\images\proof_slow_fast_pointer.png)
+    * 找入環口<br><img src="images/proof_slow_fast_pointer.png" alt="碰面一定在入門口證明圖" width="50%" height="50%"/>
 
 ## Need to review again
 | # | Title |
