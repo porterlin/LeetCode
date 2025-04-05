@@ -14,9 +14,13 @@
 * 求最大最小之類的問題
 ### Linked List
 * 反轉結束時，pre 指向反轉這段的最後節點，cur 指向反轉這段最後節點的下一個節點
-* 特殊情況時需要添加 dummyNode (比如只反轉前三個節點)
+* 特殊情況時需要添加 dummyNode (需要動到 head 的情況)
 * 快慢指針
     * 找入環口<br><img src="images/proof_slow_fast_pointer.png" alt="碰面一定在入門口證明圖" width="50%" height="50%"/>
+* 刪除節點
+    * 必須有要刪除節點的上一個節點的 pointer，才有辦法正常刪除
+    * 只給要刪除節點的 pointer，可以把下一個節點的 val 複製到當前，然後刪除下一個節點
+    * 要刪除倒數第 n 個節點，可以用左右指針。右指針先走 n 步，然後左指針從頭開始跟右指針一起每次往下一步，直到右指針走到最後一個節  點。此時左指針剛好會指到要刪除節點的前一個節點
 
 ## Need to review again
 | # | Title |
@@ -33,6 +37,8 @@
 |2439|[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|
+|3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|
 
 ## Too Hard
 | # | Title |
