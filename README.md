@@ -39,6 +39,7 @@
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|
 |3217|[Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)|
+|2487|[Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|
 
 ## Too Hard
 | # | Title |
