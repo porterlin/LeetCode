@@ -46,6 +46,7 @@
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|
 
 ## Too Hard
 | # | Title |
