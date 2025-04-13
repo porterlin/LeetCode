@@ -1,5 +1,14 @@
 # LeetCode
 ## Note
+### Prefix Sum
+* 可以將 PrefixSum 陣列大小設為 n + 1，這樣就不用考慮 edge case 的情況(e.g. 只計算前 1 個元素和)
+* ```c++
+    // initialization
+    for (int i = 0; i < n; i++) {
+        PrefixSum[i + 1] = PrefixSum[i] + nums[i];
+    }
+    ```
+* 要計算 [left, right] 加總的值時，要用 PrefixSum[right + 1] - PrefixSum[left]
 ### Two Pointers
 * 如何用 O(1) 時間去得知 O(N) 資訊
 * 靈活運用，不一定都是從小開始枚舉
@@ -47,6 +56,8 @@
 |987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|
+|1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|
+|1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|
 
 ## Too Hard
 | # | Title |
