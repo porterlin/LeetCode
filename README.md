@@ -1,7 +1,7 @@
 # LeetCode
 ## Note
 ### Prefix Sum
-* 可以將 PrefixSum 陣列大小設為 n + 1，這樣就不用考慮 edge case 的情況(e.g. 只計算前 1 個元素和)
+* 可以將 PrefixSum 陣列大小設為 n + 1，這樣就不用考慮 edge case 的情況 (e.g. 當 left = 0 時)
 * ```c++
     // initialization
     for (int i = 0; i < n; i++) {
@@ -33,6 +33,11 @@
 ### Binary Tree
 * 遞歸的核心就是不要去想子問題的過程，否則很容易想迷糊。只要邊界條件和非邊界條件的邏輯寫正確，其他就交給數學歸納法
 * 兩種寫法，一種從上而下，一種從下而上
+
+### Binary Search Tree
+* 有三種方法: Preorder, Inorder, Postorder
+    ![bst_three_approachs](images/bst_three_approachs.png)
+* Postorder 最不好想
 
 ## Need to review again
 | # | Title |
