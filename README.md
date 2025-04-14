@@ -37,6 +37,10 @@
 ### Binary Search Tree
 * 有三種方法: Preorder, Inorder, Postorder
     ![bst_three_approachs](images/bst_three_approachs.png)
+* 順序
+    1. Preorder: 根->左->右
+    2. Inorder: 左->根->右
+    3. Postorder: 左->右->根
 * Postorder 最不好想
 
 ## Need to review again
