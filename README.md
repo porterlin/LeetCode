@@ -42,6 +42,10 @@
     2. Inorder: 左->根->右
     3. Postorder: 左->右->根
 * Postorder 最不好想
+* 重建一棵樹時，只要有兩種順序即可重建，但要確定樹唯一則一定要含有 Inorder (e.g. Inorder + Preorder 或 Inorder + Postorder)
+* 重建可以用四指針分別指向兩個陣列的頭尾，然後去劃分左右子樹進行遞歸
+    * <img src="images/construct_binary_tree.PNG" alt="construct_binary_tree" width="50%" height="50%"/>
+* 想要刪除特定節點要用 Postorder 去 traversal
 
 ## Need to review again
 | # | Title |
@@ -69,6 +73,8 @@
 |1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)|
 |2476|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|
+|889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|
 
 ## Too Hard
 | # | Title |
