@@ -46,6 +46,10 @@
 * 重建可以用四指針分別指向兩個陣列的頭尾，然後去劃分左右子樹進行遞歸
     * <img src="images/construct_binary_tree.PNG" alt="construct_binary_tree" width="50%" height="50%"/>
 * 想要刪除特定節點要用 Postorder 去 traversal
+### Backtracking
+* 有共享的需要還原，沒有的可以直接覆蓋。舉例來說，枚舉定長字串，可以使用 path[i] = c 去枚舉，這樣每次回溯後都會覆蓋，所以不須還原。反之如果是不定長的比方說枚舉所有組合，那麼要使用 path.push_back(c) 的方法，這樣就需要還原，不然在枚舉其他可能時 (不同子樹)，會涵蓋到之前的答案
+### Greedy
+* 如何找到局部最優解，進而可以推導到全局最優
 
 ## Need to review again
 | # | Title |
