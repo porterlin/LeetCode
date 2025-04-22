@@ -52,6 +52,7 @@
 * 如何找到局部最優解，進而可以推導到全局最優
 ### enumeration
 * 很多有關於兩個變數的題目，可以將其中一個變數進行枚舉，將其視為常數，從而將問題轉化為「單變數」的問題。通常來說「枚舉右邊，尋找左邊」會比較好寫。
+* 三或四個變數的題目，枚舉中間往往更好計算
 
 ## Need to review again
 | # | Title |
@@ -82,6 +83,7 @@
 |889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|
+|2909|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|
 
 ## Too Hard
 | # | Title |
