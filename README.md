@@ -15,6 +15,7 @@
 ### Sliding Window
 * right - left + 1 的精髓
 * 兩指針相互移動的過程其實就是在滿足條件跟不滿足條件來回
+* 須滿足單調性才可用，比如有負數就不能用，因為這樣從 right 新加入的元素可能會讓窗口的總和減少，如果新加入的是負數，那麼 left 變成要左移，這樣就不是線性的
 ### Binary Search
 * 循環不變量
 * 要滿足單調性
@@ -50,7 +51,7 @@
 * 有共享的需要還原，沒有的可以直接覆蓋。舉例來說，枚舉定長字串，可以使用 path[i] = c 去枚舉，這樣每次回溯後都會覆蓋，所以不須還原。反之如果是不定長的比方說枚舉所有組合，那麼要使用 path.push_back(c) 的方法，這樣就需要還原，不然在枚舉其他可能時 (不同子樹)，會涵蓋到之前的答案
 ### Greedy
 * 如何找到局部最優解，進而可以推導到全局最優
-### enumeration
+### Enumeration
 * 很多有關於兩個變數的題目，可以將其中一個變數進行枚舉，將其視為常數，從而將問題轉化為「單變數」的問題。通常來說「枚舉右邊，尋找左邊」會比較好寫。
 * 三或四個變數的題目，枚舉中間往往更好計算
 
@@ -84,6 +85,7 @@
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|
 |2909|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|
 
 ## Too Hard
 | # | Title |
