@@ -49,6 +49,10 @@
 * 想要刪除特定節點要用 Postorder 去 traversal
 ### Backtracking
 * 有共享的需要還原，沒有的可以直接覆蓋。舉例來說，枚舉定長字串，可以使用 path[i] = c 去枚舉，這樣每次回溯後都會覆蓋，所以不須還原。反之如果是不定長的比方說枚舉所有組合，那麼要使用 path.push_back(c) 的方法，這樣就需要還原，不然在枚舉其他可能時 (不同子樹)，會涵蓋到之前的答案
+* 回溯三問: 當前操作? 子問題? 下一個子問題?
+* 子集型回溯: 每個元素都可以選與不選
+    * 站在輸入的角度思考: 枚舉輸入的每個數，然後分成選或不選
+    * 站在答案的角度思考: 枚舉答案的第一個數應該選誰、第二個數應該選誰...
 ### Greedy
 * 如何找到局部最優解，進而可以推導到全局最優
 ### Enumeration
@@ -92,3 +96,4 @@
 |---| ----- |
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|
+|2397|[Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)|
