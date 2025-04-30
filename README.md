@@ -9,6 +9,7 @@
     }
     ```
 * 要計算 [left, right] 加總的值時，要用 PrefixSum[right + 1] - PrefixSum[left]
+* 計算陣列中每個元素對其他所有元素差值的問題，可以用前綴和去算距離和 (2602)
 ### Two Pointers
 * 如何用 O(1) 時間去得知 O(N) 資訊
 * 靈活運用，不一定都是從小開始枚舉
