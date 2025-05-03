@@ -63,8 +63,8 @@
 * 可以從集合的角度去想
 
 ## Need to review again
-| # | Title |
-|---| ----- |
+| # | Title | Note |
+|---| ----- | ---- |
 |2779|[Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|
 |611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|
@@ -93,6 +93,7 @@
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|
 |2909|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|做到 time O(N), space O(1)|
 
 ## Too Hard
 | # | Title |
