@@ -94,6 +94,7 @@
 |2909|[Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/)|
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|做到 time O(N), space O(1)|
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|看起來簡單，但若不知道一些技巧會很卡|
 
 ## Too Hard
 | # | Title |
