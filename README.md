@@ -61,6 +61,8 @@
 * 三或四個變數的題目，枚舉中間往往更好計算
 ### Bit Manipulation
 * 可以從集合的角度去想
+### Priority Queue
+* 常用於要找最大或最小的第 k 個元素，可以維護一個 Priority Queue，當 size > k 時就 pop。這樣 top 就都會是要的第 k 個元素
 
 ## Need to review again
 | # | Title | Note |
@@ -95,6 +97,7 @@
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|做到 time O(N), space O(1)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|看起來簡單，但若不知道一些技巧會很卡|
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|經典面試題|
 
 ## Too Hard
 | # | Title |
