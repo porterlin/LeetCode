@@ -54,6 +54,7 @@
 * 子集型回溯: 每個元素都可以選與不選
     * 站在輸入的角度思考: 枚舉輸入的每個數，然後分成選或不選
     * 站在答案的角度思考: 枚舉答案的第一個數應該選誰、第二個數應該選誰...
+    * 有些問題可以轉為枚舉 "," 位置，隔開不同的子集
 ### Greedy
 * 如何找到局部最優解，進而可以推導到全局最優
 ### Enumeration
@@ -98,6 +99,7 @@
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|做到 time O(N), space O(1)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|看起來簡單，但若不知道一些技巧會很卡|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|經典面試題|
+|2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|練習子集型回溯，枚舉","位置|
 
 ## Too Hard
 | # | Title |
