@@ -102,6 +102,7 @@
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|看起來簡單，但若不知道一些技巧會很卡|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|經典面試題|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|練習子集型回溯，枚舉","位置|
+|301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|有過但寫得很醜，需要再複習|
 
 ## Too Hard
 | # | Title |
