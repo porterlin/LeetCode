@@ -105,6 +105,7 @@
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|經典面試題|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|練習子集型回溯，枚舉","位置|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|有過但寫得很醜，需要再複習|
+|2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|一開始看的時候完全不知道如何下手，但看完題解後有了解，隔天自己寫出來|
 
 ## Too Hard
 | # | Title |
