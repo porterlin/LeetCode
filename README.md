@@ -1,4 +1,5 @@
 # LeetCode
+這個 repository 以靈神的題單為主
 ## Note
 ### Prefix Sum
 * 可以將 PrefixSum 陣列大小設為 n + 1，這樣就不用考慮 edge case 的情況 (e.g. 當 left = 0 時)
@@ -68,6 +69,8 @@
 * 可以從集合的角度去想
 ### Priority Queue
 * 常用於要找最大或最小的第 k 個元素，可以維護一個 Priority Queue，當 size > k 時就 pop。這樣 top 就都會是要的第 k 個元素
+### Difference Array
+* 對於某些需要計算區間減 1 的題目，可以先照原本差分方式去建構差分陣列，此時 diff 累加的值就等於對應 index 的原陣列中的元素應該減的次數 (3355, 2960)
 
 ## Need to review again
 | # | Title | Note |
@@ -106,6 +109,7 @@
 |2698|[Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)|練習子集型回溯，枚舉","位置|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|有過但寫得很醜，需要再複習|
 |2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|一開始看的時候完全不知道如何下手，但看完題解後有了解，隔天自己寫出來|
+|2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|寫得時候暴力有寫出來，但差分不知道怎麼做|
 
 ## Too Hard
 | # | Title |
