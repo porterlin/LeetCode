@@ -110,6 +110,7 @@
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|有過但寫得很醜，需要再複習|
 |2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|一開始看的時候完全不知道如何下手，但看完題解後有了解，隔天自己寫出來|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|寫得時候暴力有寫出來，但差分不知道怎麼做|
+|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|DP，一開始以為有一個通式|
 
 ## Too Hard
 | # | Title |
