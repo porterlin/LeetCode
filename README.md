@@ -111,6 +111,8 @@
 |2850|[Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)|一開始看的時候完全不知道如何下手，但看完題解後有了解，隔天自己寫出來|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/)|寫得時候暴力有寫出來，但差分不知道怎麼做|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|DP，一開始以為有一個通式|
+|740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|DP，做完轉換就會很簡單，但一開始想不到|
+|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|DP|
 
 ## Too Hard
 | # | Title |
