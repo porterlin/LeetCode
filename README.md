@@ -71,6 +71,8 @@
 * 常用於要找最大或最小的第 k 個元素，可以維護一個 Priority Queue，當 size > k 時就 pop。這樣 top 就都會是要的第 k 個元素
 ### Difference Array
 * 對於某些需要計算區間減 1 的題目，可以先照原本差分方式去建構差分陣列，此時 diff 累加的值就等於對應 index 的原陣列中的元素應該減的次數 (3355, 2960)
+### Dynamic Programming
+* 相鄰不能選要聯想到"198打家劫舍"，有些題目需要用陣列或 hash table 轉換，變成值域型的打家劫舍
 
 ## Need to review again
 | # | Title | Note |
@@ -113,6 +115,8 @@
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|DP，一開始以為有一個通式|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|DP，做完轉換就會很簡單，但一開始想不到|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|DP|
+|3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|一開始照 740 思路去寫，但內存爆了(MLE)，需要使用另外的寫法|
+|1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|想不到，看題解也看了一陣子才了解|
 
 ## Too Hard
 | # | Title |
