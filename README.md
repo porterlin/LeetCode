@@ -119,6 +119,7 @@
 |3186|[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|一開始照 740 思路去寫，但內存爆了(MLE)，需要使用另外的寫法|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|想不到，看題解也看了一陣子才了解|
 |3393|[Count Paths With the Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)|看完題解後只會寫記憶化搜索，遞推不會寫|
+|1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|差一步就想出來了|
 
 ## Too Hard
 | # | Title |
