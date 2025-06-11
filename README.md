@@ -76,6 +76,8 @@
 ### Dynamic Programming
 * 相鄰不能選要聯想到"198打家劫舍"，有些題目需要用陣列或 hash table 轉換，變成值域型的打家劫舍
 * 多一個約束就多一個參數
+### Graph
+* Topological sort 能夠排完的條件是圖必須是 DAG (有向無環圖)。也可以用來找圖中有沒有 cycle
 
 ## Need to review again
 | # | Title | Note |
@@ -122,6 +124,7 @@
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|想不到，看題解也看了一陣子才了解|
 |3393|[Count Paths With the Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)|看完題解後只會寫記憶化搜索，遞推不會寫|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|差一步就想出來了|
+|1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Topological sort 會，但最後怎麼判斷 query 的部分沒想出來|
 
 ## Too Hard
 | # | Title |
