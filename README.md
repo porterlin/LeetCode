@@ -125,6 +125,7 @@
 |3393|[Count Paths With the Given XOR Value](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)|看完題解後只會寫記憶化搜索，遞推不會寫|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|差一步就想出來了|
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Topological sort 會，但最後怎麼判斷 query 的部分沒想出來|
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|思路有點難想|
 
 ## Too Hard
 | # | Title |
