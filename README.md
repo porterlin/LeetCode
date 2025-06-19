@@ -126,6 +126,7 @@
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)|差一步就想出來了|
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Topological sort 會，但最後怎麼判斷 query 的部分沒想出來|
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|思路有點難想|
+|2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|思路有點難想|
 
 ## Too Hard
 | # | Title |
@@ -133,3 +134,4 @@
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|
 |2096|[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|
 |1191|[K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)|
+|456|[132 Pattern](https://leetcode.com/problems/132-pattern/)|
