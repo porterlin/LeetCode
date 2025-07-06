@@ -127,6 +127,7 @@
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|Topological sort 會，但最後怎麼判斷 query 的部分沒想出來|
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|思路有點難想|
 |2748|[Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/)|思路有點難想|
+|3489|[Zero Array Transformation IV](https://leetcode.com/problems/zero-array-transformation-iv/)|看完 leetcode hint 後有做出來|
 
 ## Too Hard
 | # | Title |
