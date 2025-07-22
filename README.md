@@ -1,4 +1,7 @@
 # LeetCode
+> [!WARNING]
+> As of July 22, 2025, the contents of this repository have been merged into [this repository](https://github.com/porterlin/CP-Practice)
+
 這個 repository 以靈神的題單為主
 ## Note
 ### Prefix Sum
